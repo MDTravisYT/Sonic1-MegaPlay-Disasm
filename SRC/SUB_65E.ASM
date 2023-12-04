@@ -1,0 +1,7 @@
+SUB_65E:
+		MOVEQ	#$14,	D3
+		
+LOC_660:
+		NOP
+		DBF		D3,	LOC_660
+		RTS
