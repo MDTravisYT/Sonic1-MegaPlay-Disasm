@@ -1,0 +1,8 @@
+SUB_6D2:
+		MOVEQ	#0,	D6
+		MOVEQ	#0,	D7
+		MOVE.W	#$7FFF,	D1
+		LEA		(V_256X256).L,	A0
+		BSR.W	SUB_6E8
+		ADDQ.W	#1,	D7
+		ADDQ.L	#1,	A0
