@@ -1,0 +1,5 @@
+SUB_4EA:
+		MOVE	#$2700,	SR
+		BSR.S	SUB_4F6
+		MOVE	#$2300,	SR
+		RTS
