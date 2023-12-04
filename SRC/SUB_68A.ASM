@@ -1,0 +1,10 @@
+SUB_68A:
+		MOVEQ	#0,	D1
+		MOVE.W	($C00004).L,	D0
+		BTST	#4,	D0
+		BEQ.S	LOC_69C
+		ORI.B	#$40,	D1
+
+LOC_69C:
+		MOVE.B	D1,	($A10007).L
+		RTS
