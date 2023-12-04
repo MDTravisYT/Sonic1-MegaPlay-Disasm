@@ -1,0 +1,112 @@
+SUB_510:
+		ANDI.L	#$FFFF,D0
+		MOVEM.L	D0,-(SP)
+		MOVE.B	($A10007).L,D6
+		ANDI.W	#$38,D6
+		CMPI.B	#$20,D6
+		BEQ.W	LOC_62A
+		CMPI.B	#$38,D6
+		BEQ.W	LOC_644
+		MOVEQ	#7,D5
+		MOVE.W	#$2000,D2
+
+LOC_53A:
+		SUBQ.W	#1,D2
+		BEQ.W	LOC_644
+		MOVE.B	#4,D7
+		ANDI.W	#7,D7
+		MOVE.B	D7,($A10007).L
+		BSR.W	SUB_65E
+		MOVE.B	($A10007).L,D6
+		ANDI.W	#$38,D6
+		CMPI.B	#$28,D6
+		BNE.S	LOC_53A
+		MOVE.W	#$2000,D2
+		BRA.S	LOC_5A0
+
+;	===========================================================
+
+LOC_568:	
+		MOVE.B	#4,D7
+		MOVE.W	D7,D4
+		ANDI.W	#3,D4
+		MOVE.B	D4,($A10007).L
+		NOP
+		NOP
+		MOVE.W	#$2000,D2
+
+LOC_580:	
+		SUBQ.W	#1,D2
+		BEQ.W	LOC_644
+		MOVE.B	D7,($A10007).L
+		BSR.W	SUB_65E
+		MOVE.B	($A10007).L,D6
+		ANDI.W	#$38,D6	
+		CMPI.B	#$28,D6	
+		BNE.S	LOC_580
+
+LOC_5A0:
+		ROL.W	#2,D0
+		MOVE.B	D0,D6
+		ANDI.B	#3,D6
+		MOVE.W	D6,D4
+		ORI.W	#4,D4
+		MOVE.B	D4,($A10007).L
+		NOP
+		NOP
+		MOVE.W	#$2000,D2
+
+LOC_5BC:
+		SUBQ.W	#1,D2
+		BEQ.W	LOC_644
+		MOVE.B	D6,($A10007).L
+		MOVE.B	($A10007).L,D7
+		ANDI.W	#$38,D7	
+		CMPI.B	#$30,D7	
+		BNE.S	LOC_5BC
+		DBF	D5,LOC_568
+		MOVE.B	#7,D7
+		MOVE.W	D7,D4
+		ANDI.W	#3,D4
+		MOVE.B	D4,($A10007).L
+		NOP
+		NOP
+		MOVE.W	#$2000,D2
+
+LOC_5F4:
+		SUBQ.W	#1,D2
+		BEQ.W	LOC_644
+		MOVE.B	D7,($A10007).L
+		BSR.W	SUB_65E
+		MOVE.B	($A10007).L,D6
+		ANDI.W	#$38,D6	
+		CMPI.B	#0,D6
+		BNE.S	LOC_5F4
+		MOVE.B	#0,D7
+		ANDI.W	#7,D7
+		MOVE.B	D7,($A10007).L
+		MOVEM.L	(SP)+,D0
+		MOVEQ	#0,D7
+		RTS
+
+;	===========================================================
+
+LOC_62A:
+		MOVE.B	#0,D7
+		ANDI.W	#7,D7
+		MOVE.B	D7,($A10007).L
+		MOVEQ	#$FFFFFFFE,D7
+		MOVEM.L	(SP)+,D0
+		ORI	#1,CCR
+		RTS
+
+;	===========================================================
+
+LOC_644:
+		MOVE.B	#0,D7
+		ANDI.W	#7,D7
+		MOVE.B	D7,($A10007).L
+		MOVEQ	#$FFFFFFFF,D7
+		MOVEM.L	(SP)+,D0
+		ORI	#1,CCR
+		RTS

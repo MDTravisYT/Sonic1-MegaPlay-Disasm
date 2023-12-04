@@ -7,3 +7,6 @@ SUB_4F6:
 		BSR.W	SUB_41E
 		MOVEM.L	(SP)+,	D0
 		BRA.S	SUB_4F6
+		
+LOCRET_50E:
+		RTS
