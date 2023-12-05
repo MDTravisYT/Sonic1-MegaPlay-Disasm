@@ -1,0 +1,11 @@
+SUB_800:
+		LEA		($308000).L,	A0	;	???????
+		LEA		(V_256X256).L,	A1
+		MOVE.W	#$5FF,	D7
+		
+LOC_810:
+		MOVEP.L	1(A0),	D6
+		MOVE.L	D6,	(A1)+
+		ADDQ.W	#8,	A0
+		DBF		D7,	LOC_810
+		RTS
