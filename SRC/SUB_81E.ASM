@@ -1,0 +1,15 @@
+SUB_81E:
+		BSR.W	SUB_41E
+		LEA		(UNK_86C).L,	A6
+		MOVE.W	(A6)+,	D7
+		MOVEQ	#0,	D6
+		
+LOC_82C:
+		CMP.W	(A6)+,	D0
+		BEQ.S	LOC_838
+		ADDQ.W	#4,	D6
+		DBF		D7,	LOC_82C
+		RTS
+		
+LOC_838:
+		JMP		LOC_83C(PC,D6.W)
