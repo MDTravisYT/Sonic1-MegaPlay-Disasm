@@ -65,3 +65,4 @@ LOC_1D97E:	DC.B	'Loc 1D97E Pointer'
 LOC_1D9CE:	DC.B	'Loc 1D9CE Pointer'
 		ALIGN		$1E35E
 SUB_1E35E:	DC.B	'Sub 1E35E Pointer'
+		ALIGN		$80000
