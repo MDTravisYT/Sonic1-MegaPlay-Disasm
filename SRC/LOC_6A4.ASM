@@ -7,6 +7,6 @@ LOC_6A4:
 		
 WORD_6B4:
 		DC.W	$FF81
-		DC.W	$FF82
 		DC.W	$FF83
+		DC.W	$FF82
 		DC.W	$FF84
