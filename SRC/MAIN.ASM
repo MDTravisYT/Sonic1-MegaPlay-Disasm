@@ -31,8 +31,8 @@ SUB_200:
 
 		INCBIN		"CG/ASCII.CG"
 
-		ALIGN		$DD0
-VBLANK:	DC.B	'VBlank Pointer'
+		INCLUDE		"SRC/VBLANK.ASM"
+
 		ALIGN		$1366
 HBLANK:	DC.B	'HBlank Pointer'
 		ALIGN		$13F6
@@ -65,4 +65,6 @@ LOC_1D97E:	DC.B	'Loc 1D97E Pointer'
 LOC_1D9CE:	DC.B	'Loc 1D9CE Pointer'
 		ALIGN		$1E35E
 SUB_1E35E:	DC.B	'Sub 1E35E Pointer'
+		ALIGN		$71B4C
+UPDATEMUSIC:	DC.B	'Update Music Pointer'
 		ALIGN		$80000
