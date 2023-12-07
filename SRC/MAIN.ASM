@@ -33,7 +33,7 @@ SUB_200:
 
 		INCLUDE		"SRC/VBLANK.ASM"
 
-		ALIGN		$1366
+	;	ALIGN		$1366
 HBLANK:	DC.B	'HBlank Pointer'
 		ALIGN		$13F6
 JOYPADINIT:	DC.B	'Joypad Init Pointer'
@@ -79,6 +79,8 @@ SUB_1CBD6:	DC.B	'Loc 1CBD6 Pointer'
 LOC_1D97E:	DC.B	'Loc 1D97E Pointer'
 		ALIGN		$1D9CE
 LOC_1D9CE:	DC.B	'Loc 1D9CE Pointer'
+		ALIGN		$1DDDC
+SUB_1DDDC:	DC.B	'Sub 1DDDC Pointer'
 		ALIGN		$1E35E
 SUB_1E35E:	DC.B	'Sub 1E35E Pointer'
 		ALIGN		$71B4C
