@@ -37,12 +37,16 @@ SUB_200:
 HBLANK:	DC.B	'HBlank Pointer'
 		ALIGN		$13F6
 JOYPADINIT:	DC.B	'Joypad Init Pointer'
+		ALIGN		$140C
+READJOYPADS:	DC.B	'Read Joypads Pointer'
 		ALIGN		$1448
 VDPSETUPGAME:	DC.B	'VDP Setup Pointer'
 		ALIGN		$1570
 DACDRIVERLOAD:	DC.B	'DAC Loader Pointer'
 		ALIGN		$1862
 SUB_1862:	DC.B	'Sub 1862 Pointer'
+		ALIGN		$187E
+PROCESSDPLC2:	DC.B	'Process DPLC2 Pointer'
 		ALIGN		$30AA
 GM_SEGA:	DC.B	'Sega Screen Pointer'
 		ALIGN		$311C
@@ -61,8 +65,14 @@ GM_ENDING:	DC.B	'Ending Screen Pointer'
 GM_CREDITS:	DC.B	'Credits Screen Pointer'
 		ALIGN		$6A06
 LOADTILESASYOUMOVE_BGONLY:	DC.B	'LoadTilesAsMoved'
+		ALIGN		$6A32
+SUB_6A32:		DC.B	'Sub 6A32 Pointer'
 		ALIGN		$FFF0
 LOC_FFF0:	DC.B	'Loc FFF0 Pointer'
+		ALIGN		$1C55E
+SUB_1C55E:	DC.B	'Loc 1C55E Pointer'
+		ALIGN		$1CBD6
+SUB_1CBD6:	DC.B	'Loc 1CBD6 Pointer'
 		ALIGN		$1D97E
 LOC_1D97E:	DC.B	'Loc 1D97E Pointer'
 		ALIGN		$1D9CE
