@@ -32,10 +32,8 @@ SUB_200:
 		INCBIN		"CG/ASCII.CG"
 
 		INCLUDE		"SRC/VBLANK.ASM"
+		INCLUDE		"SRC/HBLANK.ASM"
 
-	;	ALIGN		$1366
-HBLANK:	DC.B	'HBlank Pointer'
-		ALIGN		$13F6
 JOYPADINIT:	DC.B	'Joypad Init Pointer'
 		ALIGN		$140C
 READJOYPADS:	DC.B	'Read Joypads Pointer'
