@@ -57,7 +57,9 @@ GM_TITLE:	DC.B	'Title Screen Pointer'
 GM_TITLEB:	DC.B	'Unknown Screen Pointer'
 		ALIGN		$3C46
 GM_LEVEL:	DC.B	'Level Screen Pointer'
-		ALIGN		$4A7A
+		ALIGN		$4A78
+NULLSUB_3:	
+			RTS
 GM_CONTINUE:	DC.B	'Continue Screen Pointer'
 		ALIGN		$4EB8
 GM_ENDING:	DC.B	'Ending Screen Pointer'
