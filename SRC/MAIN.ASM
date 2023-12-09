@@ -89,7 +89,7 @@ SUB_1CBD6:	DC.B	'Loc 1CBD6 Pointer'
 		ALIGN		$1D492
 ARTLOADCUES:	DC.B	'Art Load Cues Pointer'
 		ALIGN		$1D97E
-LOC_1D97E:	DC.B	'Loc 1D97E Pointer'
+GM_HISCORE:	DC.B	'Hi Score Pointer'
 		ALIGN		$1D9CE
 LOC_1D9CE:	DC.B	'Loc 1D9CE Pointer'
 		ALIGN		$1DDDC
