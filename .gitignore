@@ -18,3 +18,9 @@ ep1517x.bin.til
 ep1517x.bin.nam
 ep1517x.bin.id1
 ep1517x.bin.id0
+_bitcompiler/raw.asm
+_bitcompiler/out.bin.bak
+_bitcompiler/out.bin
+_bitcompiler/log.txt
+_bitcompiler/build.bat
+_bitcompiler/asm68k.exe
