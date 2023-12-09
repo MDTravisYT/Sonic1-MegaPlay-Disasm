@@ -24,3 +24,5 @@ _bitcompiler/out.bin
 _bitcompiler/log.txt
 _bitcompiler/build.bat
 _bitcompiler/asm68k.exe
+TOOL/_description_generator/log.txt
+TOOL/_description_generator/out.bin

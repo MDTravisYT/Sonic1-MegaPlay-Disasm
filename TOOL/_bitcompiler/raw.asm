@@ -1,0 +1,1 @@
+;	Insert code you want to compile into a binary here
