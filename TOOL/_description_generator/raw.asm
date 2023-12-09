@@ -1,4 +1,5 @@
 ;	After compiling, append data to 0x2003 in the "ep15175-01.ic3" ROM.
+;	DO NOT change the ROM size!!
 
 ARROW	=	$7F
 NEWLINE	=	$FE
@@ -23,3 +24,5 @@ ENDTXT	=	$FF
 	DC.B	" BUTTON JUMP WHILE PERFORMING",NEWLINE
 	DC.B	TAB,8," THE SUPER SONIC SPIN",NEWLINE
 	DC.B	TAB,8," ATTACK.",ENDTXT
+	
+;	Above is the standard descrition you see with Sonic the Hedgehog.
