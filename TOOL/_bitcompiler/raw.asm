@@ -1,258 +1,320 @@
-Angle_Data:     dc.b   0
+unk_3196:       dc.b   0
+	dc.b   0
+	dc.b $33 ; 3
+	dc.b   0
+	dc.b   0
+	dc.b   1
+	dc.b   1
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b $29 ; )
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b $24 ; $
+	dc.b   0
+	dc.b   0
+	dc.b   1
+	dc.b   1
+	dc.b   0
+	dc.b   0
+	dc.b   1
+	dc.b  $B
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b $33 ; 3
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b $2E ; .
+	dc.b   0
+	dc.b   0
+	dc.b   1
+	dc.b $33 ; 3
+	dc.b   0
+	dc.b   0
+	dc.b   2
+	dc.b   1
+	dc.b   0
+	dc.b   0
+	dc.b   1
+	dc.b $29 ; )
+	dc.b   0
+	dc.b   0
+	dc.b   1
+	dc.b $24 ; $
 	dc.b   0
 	dc.b   0
 	dc.b   0
 	dc.b   1
+	dc.b   0
+	dc.b   0
+	dc.b   0
 	dc.b   1
+	dc.b   0
+	dc.b   0
+	dc.b   0
 	dc.b   1
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   0
 	dc.b   1
+	dc.b   0
+	dc.b   0
+	dc.b   0
 	dc.b   1
+	dc.b   0
+	dc.b   0
+	dc.b   0
 	dc.b   1
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   1
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   1
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   1
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   1
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   1
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   1
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   1
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   1
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   1
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   1
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   1
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   1
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   0
+	dc.b   0
 	dc.b   2
+	dc.b   1
+	dc.b   0
+	dc.b   0
 	dc.b   2
+	dc.b  $B
+	dc.b   0
+	dc.b   0
+	dc.b   1
+	dc.b $33 ; 3
+	dc.b   0
+	dc.b   0
+	dc.b   1
+	dc.b $2E ; .
+	dc.b   0
+	dc.b   0
 	dc.b   2
+	dc.b $1F
+	dc.b   0
+	dc.b   0
 	dc.b   2
+	dc.b $29 ; )
+	dc.b   0
+	dc.b   0
 	dc.b   2
+	dc.b $15
+	dc.b   0
+	dc.b   0
 	dc.b   2
-	dc.b   3
-	dc.b   3
-	dc.b   3
-	dc.b   3
-	dc.b   3
-	dc.b   3
-	dc.b   3
+	dc.b $10
+	dc.b   0
+	dc.b   0
 	dc.b   4
+	dc.b   1
+	dc.b   0
+	dc.b   0
 	dc.b   4
+	dc.b  $B
+	dc.b   0
+	dc.b   0
+	dc.b   3
+	dc.b $33 ; 3
+	dc.b   0
+	dc.b   0
+	dc.b   3
+	dc.b $2E ; .
+	dc.b   0
+	dc.b   0
+	dc.b   2
+	dc.b  $B
+	dc.b   0
+	dc.b   0
+	dc.b   2
+	dc.b $15
+	dc.b   0
+	dc.b   0
+	dc.b   2
+	dc.b   1
+	dc.b   0
+	dc.b   0
+	dc.b   1
+	dc.b $38 ; 8
+	dc.b   0
+	dc.b   0
+	dc.b   1
+	dc.b $33 ; 3
+	dc.b   0
+	dc.b   0
+	dc.b   2
+	dc.b   1
+	dc.b   0
+	dc.b   0
+	dc.b   1
+	dc.b $29 ; )
+	dc.b   0
+	dc.b   0
+	dc.b   1
+	dc.b $24 ; $
+	dc.b   0
+	dc.b   0
+	dc.b   3
+	dc.b   1
+	dc.b   0
+	dc.b   0
+	dc.b   3
+	dc.b  $B
+	dc.b   0
+	dc.b   0
+	dc.b   2
+	dc.b $33 ; 3
+	dc.b   0
+	dc.b   0
+	dc.b   2
+	dc.b $2E ; .
+	dc.b   0
+	dc.b   0
+	dc.b   3
+	dc.b   1
+	dc.b   0
+	dc.b   0
+	dc.b   3
+	dc.b  $B
+	dc.b   0
+	dc.b   0
+	dc.b   2
+	dc.b $33 ; 3
+	dc.b   0
+	dc.b   0
+	dc.b   2
+	dc.b $2E ; .
+	dc.b   0
+	dc.b   0
+	dc.b   3
+	dc.b $1F
+	dc.b   0
+	dc.b   0
+	dc.b   3
+	dc.b $29 ; )
+	dc.b   0
+	dc.b   0
+	dc.b   3
+	dc.b $15
+	dc.b   0
+	dc.b   0
+	dc.b   3
+	dc.b $10
+	dc.b   0
+	dc.b   0
 	dc.b   4
+	dc.b   1
+	dc.b   0
+	dc.b   0
 	dc.b   4
-	dc.b   4
-	dc.b   4
-	dc.b   5
-	dc.b   5
-	dc.b   5
-	dc.b   5
-	dc.b   5
-	dc.b   5
-	dc.b   6
-	dc.b   6
-	dc.b   6
-	dc.b   6
-	dc.b   6
-	dc.b   6
-	dc.b   6
-	dc.b   7
-	dc.b   7
-	dc.b   7
-	dc.b   7
-	dc.b   7
-	dc.b   7
-	dc.b   8
-	dc.b   8
-	dc.b   8
-	dc.b   8
-	dc.b   8
-	dc.b   8
-	dc.b   8
+	dc.b  $B
+	dc.b   0
+	dc.b   0
+	dc.b   3
+	dc.b $33 ; 3
+	dc.b   0
+	dc.b   0
+	dc.b   3
+	dc.b $2E ; .
+	dc.b   0
+	dc.b   0
 	dc.b   9
+	dc.b $3B ; ;
+	dc.b   0
+	dc.b   0
 	dc.b   9
+	dc.b $3B ; ;
+	dc.b   0
+	dc.b   0
 	dc.b   9
+	dc.b $3B ; ;
+	dc.b   0
+	dc.b   0
 	dc.b   9
+	dc.b $3B ; ;
+	dc.b   0
+	dc.b   0
 	dc.b   9
+	dc.b $3B ; ;
+	dc.b   0
+	dc.b   0
 	dc.b   9
-	dc.b  $A
-	dc.b  $A
-	dc.b  $A
-	dc.b  $A
-	dc.b  $A
-	dc.b  $A
-	dc.b  $A
-	dc.b  $B
-	dc.b  $B
-	dc.b  $B
-	dc.b  $B
-	dc.b  $B
-	dc.b  $B
-	dc.b  $B
-	dc.b  $C
-	dc.b  $C
-	dc.b  $C
-	dc.b  $C
-	dc.b  $C
-	dc.b  $C
-	dc.b  $C
-	dc.b  $D
-	dc.b  $D
-	dc.b  $D
-	dc.b  $D
-	dc.b  $D
-	dc.b  $D
-	dc.b  $D
-	dc.b  $E
-	dc.b  $E
-	dc.b  $E
-	dc.b  $E
-	dc.b  $E
-	dc.b  $E
-	dc.b  $E
-	dc.b  $F
-	dc.b  $F
-	dc.b  $F
-	dc.b  $F
-	dc.b  $F
-	dc.b  $F
-	dc.b  $F
-	dc.b $10
-	dc.b $10
-	dc.b $10
-	dc.b $10
-	dc.b $10
-	dc.b $10
-	dc.b $10
-	dc.b $11
-	dc.b $11
-	dc.b $11
-	dc.b $11
-	dc.b $11
-	dc.b $11
-	dc.b $11
-	dc.b $11
-	dc.b $12
-	dc.b $12
-	dc.b $12
-	dc.b $12
-	dc.b $12
-	dc.b $12
-	dc.b $12
-	dc.b $13
-	dc.b $13
-	dc.b $13
-	dc.b $13
-	dc.b $13
-	dc.b $13
-	dc.b $13
-	dc.b $13
-	dc.b $14
-	dc.b $14
-	dc.b $14
-	dc.b $14
-	dc.b $14
-	dc.b $14
-	dc.b $14
-	dc.b $14
-	dc.b $15
-	dc.b $15
-	dc.b $15
-	dc.b $15
-	dc.b $15
-	dc.b $15
-	dc.b $15
-	dc.b $15
-	dc.b $15
-	dc.b $16
-	dc.b $16
-	dc.b $16
-	dc.b $16
-	dc.b $16
-	dc.b $16
-	dc.b $16
-	dc.b $16
-	dc.b $17
-	dc.b $17
-	dc.b $17
-	dc.b $17
-	dc.b $17
-	dc.b $17
-	dc.b $17
-	dc.b $17
-	dc.b $17
-	dc.b $18
-	dc.b $18
-	dc.b $18
-	dc.b $18
-	dc.b $18
-	dc.b $18
-	dc.b $18
-	dc.b $18
-	dc.b $18
-	dc.b $19
-	dc.b $19
-	dc.b $19
-	dc.b $19
-	dc.b $19
-	dc.b $19
-	dc.b $19
-	dc.b $19
-	dc.b $19
-	dc.b $19
-	dc.b $1A
-	dc.b $1A
-	dc.b $1A
-	dc.b $1A
-	dc.b $1A
-	dc.b $1A
-	dc.b $1A
-	dc.b $1A
-	dc.b $1A
-	dc.b $1B
-	dc.b $1B
-	dc.b $1B
-	dc.b $1B
-	dc.b $1B
-	dc.b $1B
-	dc.b $1B
-	dc.b $1B
-	dc.b $1B
-	dc.b $1B
-	dc.b $1C
-	dc.b $1C
-	dc.b $1C
-	dc.b $1C
-	dc.b $1C
-	dc.b $1C
-	dc.b $1C
-	dc.b $1C
-	dc.b $1C
-	dc.b $1C
-	dc.b $1C
-	dc.b $1D
-	dc.b $1D
-	dc.b $1D
-	dc.b $1D
-	dc.b $1D
-	dc.b $1D
-	dc.b $1D
-	dc.b $1D
-	dc.b $1D
-	dc.b $1D
-	dc.b $1D
-	dc.b $1E
-	dc.b $1E
-	dc.b $1E
-	dc.b $1E
-	dc.b $1E
-	dc.b $1E
-	dc.b $1E
-	dc.b $1E
-	dc.b $1E
-	dc.b $1E
-	dc.b $1E
-	dc.b $1F
-	dc.b $1F
-	dc.b $1F
-	dc.b $1F
-	dc.b $1F
-	dc.b $1F
-	dc.b $1F
-	dc.b $1F
-	dc.b $1F
-	dc.b $1F
-	dc.b $1F
-	dc.b $1F
-	dc.b $20
-	dc.b $20
-	dc.b $20
-	dc.b $20
-	dc.b $20
-	dc.b $20
-	dc.b $20
+	dc.b $3B ; ;
+	dc.b   0
+	dc.b   0
+	dc.b   9
+	dc.b $3B ; ;
+	dc.b   0
+	dc.b   0
+	dc.b   9
+	dc.b $3B ; ;
 	dc.b   0
