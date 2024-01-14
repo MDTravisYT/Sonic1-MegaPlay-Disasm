@@ -1,6 +1,14 @@
 OBX						=	$08
 OBFRAME					=	$1A
 
+MUS_GHZ					=	$81
+MUS_LZ					=	$82
+MUS_MZ					=	$83
+MUS_SLZ					=	$84
+MUS_SYZ					=	$85
+MUS_SBZ					=	$86
+MUS_FZ					=	$8D
+
 Z80_VERSION				=	$A10001
 Z80_PORT_1_CONTROL		=	$A10008
 Z80_EXPANSION_CONTROL	=	$A1000C
