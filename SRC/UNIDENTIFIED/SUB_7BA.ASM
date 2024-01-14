@@ -10,7 +10,7 @@ LOC_7C2:
 ;	===========================================================
 
 LOC_7C6:
-		MOVEQ	#DWORD_FFFF82,	D0
+		MOVEQ	#V_LEVSELITEM,	D0
 
 LOC_7C8:
 		MOVE.W	#$100,	($A11100).L
