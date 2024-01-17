@@ -1,4 +1,4 @@
-# 2% Completion
+# 3% Completion
 
 This is a disassembly of an arcade-exclusive version of Sonic the Hedgehog that runs on Mega Play hardware. 
 > [!NOTE]
