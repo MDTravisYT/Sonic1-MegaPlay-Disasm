@@ -25,4 +25,4 @@ ENDTXT	=	$FF
 	DC.B	TAB,8," THE SUPER SONIC SPIN",NEWLINE
 	DC.B	TAB,8," ATTACK.",ENDTXT
 	
-;	Above is the standard descrition you see with Sonic the Hedgehog.
+;	Above is the standard description you see with Sonic the Hedgehog.
